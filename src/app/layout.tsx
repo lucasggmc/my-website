@@ -1,4 +1,22 @@
-import StyledComponentsRegistry from './styling/styled-components/registry';
+import StyledComponentsRegistry from './styles/styled-components/registry';
+import { Roboto, Inter } from 'next/font/google';
+import './styles/globals.css';
+
+export const roboto = Roboto({
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-roboto',
+});
+
+export const inter = Inter({
+  weight: ['400', '700'],
+  style: ['normal'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+});
 
 export const metadata = {
   title: 'Create Next App',
@@ -7,7 +25,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${roboto.variable} ${inter.variable}`}>
       <body>
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
       </body>
