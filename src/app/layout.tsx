@@ -1,6 +1,6 @@
-import StyledComponentsRegistry from './styles/styled-components/registry';
 import { Roboto, Inter } from 'next/font/google';
-import './styles/globals.css';
+import '../styles/globals.css';
+import StyledComponentsRegistry from '@/styles/styled-components/registry';
 
 export const roboto = Roboto({
   weight: ['400', '700'],

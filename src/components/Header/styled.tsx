@@ -9,6 +9,7 @@ export const HeaderContainer = styled.header`
 export const ContentContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 100%;
   width: 100%;
 
@@ -17,7 +18,7 @@ export const ContentContainer = styled.div`
     flex-direction: column;
     gap: 1rem;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     height: 100%;
 
@@ -26,8 +27,13 @@ export const ContentContainer = styled.div`
       text-transform: uppercase;
     }
 
+    h1 {
+      display: inline;
+    }
+
     span {
       color: #de2c62;
+      display: inline;
     }
   }
 
@@ -37,5 +43,11 @@ export const ContentContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  img {
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
   }
 `;
