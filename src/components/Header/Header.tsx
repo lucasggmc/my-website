@@ -12,7 +12,7 @@ const Header = () => {
       <S.ContentContainer>
         <main>
           <h1>
-            Hi! I am <span>Lucas Carneiro</span>
+            Hi! I amm <span>Lucas Carneiro</span>
           </h1>
           <h2>
             I am a Full Stack Developer focused on <span>Front End</span>
