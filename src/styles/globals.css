@@ -1,6 +1,7 @@
 :root {
-  --background-white: #fff;
-  --background-gray: #f4f4f4;
+  --white: #fff;
+  --gray: #f4f4f4;
+  --color-red: #de2c62;
 }
 
 * {
@@ -14,7 +15,7 @@ html {
 }
 
 body {
-  background: var(--background-white);
+  background: var(--white);
   line-height: 1;
   font-size: 100%;
 }

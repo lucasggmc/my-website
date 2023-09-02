@@ -4,6 +4,7 @@ import * as S from './styled';
 import Image from 'next/image';
 import { Linkedin } from '@styled-icons/boxicons-logos/Linkedin';
 import { GithubOutline } from '@styled-icons/evaicons-outline/GithubOutline';
+import Link from 'next/link';
 
 const Header = () => {
   return (
@@ -12,17 +13,35 @@ const Header = () => {
       <S.ContentContainer>
         <main>
           <h1>
-            Hi! I amm <span>Lucas Carneiro</span>
+            Hi! I am <span>Lucas Carneiro</span>
           </h1>
           <h2>
             I am a Full Stack Developer focused on <span>Front End</span>
           </h2>
           <p> I started my career asdasd asdasdasd asdasdas asdas</p>
-          <Linkedin size={25} title="linkedin link" />
-          {/* <Github size={25} title="github link" /> */}
-          <GithubOutline size={25} title="github link" />
+
+          <S.SocialMediaContainer>
+            <Link href="https://www.linkedin.com/in/lucas-gabriel96">
+              <Linkedin size={20} title="linkedin link" />
+            </Link>
+            <Link href="https://github.com/lucasggmc">
+              <GithubOutline size={20} title="github link" />
+            </Link>
+            <Link href="https://www.linkedin.com/in/lucas-gabriel96">
+              <Linkedin size={20} title="linkedin link" />
+            </Link>
+            <Link href="https://github.com/lucasggmc">
+              <GithubOutline size={20} title="github link" />
+            </Link>
+          </S.SocialMediaContainer>
         </main>
-        <Image src="/site/profile.jpeg" width={200} height={200} alt="Picture of the author" />
+        {/* <Image src="/site/profile.jpeg" width={200} height={200} alt="Picture of the author" /> */}
+        <Image
+          src="/site/zyro-image (3).png"
+          width={1000}
+          height={1000}
+          alt="Picture of the author"
+        />
       </S.ContentContainer>
     </S.HeaderContainer>
   );

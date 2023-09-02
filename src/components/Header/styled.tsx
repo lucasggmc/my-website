@@ -3,7 +3,7 @@ import { styled } from 'styled-components';
 export const HeaderContainer = styled.header`
   height: 20rem;
   padding: 0 4rem;
-  background-color: var(--background-gray);
+  background-color: var(--gray);
 `;
 
 export const ContentContainer = styled.div`
@@ -32,8 +32,12 @@ export const ContentContainer = styled.div`
     }
 
     span {
-      color: #de2c62;
+      color: var(--color-red);
       display: inline;
+    }
+
+    p {
+      line-height: 1.3rem;
     }
   }
 
@@ -46,8 +50,22 @@ export const ContentContainer = styled.div`
   }
 
   img {
-    border-radius: 100%;
-    height: 200px;
-    width: 200px;
+    position: absolute;
+    right: 5rem;
+    height: 15.9rem;
+    width: 15.9rem;
+  }
+`;
+
+export const SocialMediaContainer = styled.div`
+  display: flex;
+  gap: 1rem;
+
+  a {
+    color: black;
+    transition: opacity 0.2s;
+    &:hover {
+      opacity: 0.7;
+    }
   }
 `;
