@@ -2,8 +2,17 @@
   "experiences": [
     {
       "companyName": "Object Edge",
-      "startDate": "",
-      "endDate": ""
+      "startDate": "10/04/2021",
+      "endDate": "current",
+      "location": "Remote",
+      "description": "sadsadsdasdsa"
+    },
+    {
+      "companyName": "Mooveon",
+      "startDate": "10/04/2021",
+      "endDate": "10/04/2021",
+      "location": "Remote",
+      "description": "bbbbbbbbbbbbbbbb sdadasd asdasdasd sadsadasd sadasdasd"
     }
   ]
 }

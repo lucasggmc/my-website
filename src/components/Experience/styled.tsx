@@ -2,16 +2,22 @@ import { styled } from 'styled-components';
 
 export const ExperienceContainer = styled.div`
   padding: 2rem 10rem;
-  height: 20rem;
+  height: auto;
+  min-height: 20rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 3rem;
+  width: 100%;
+  background-color: var(--gray);
 
   p {
     line-height: 1.3rem;
   }
 
-  height: 20rem;
-  background-color: var(--gray);
+  ul {
+    li {
+      margin-bottom: 1rem;
+    }
+  }
 `;
