@@ -19,7 +19,7 @@ export const ContentContainer = styled.div`
     gap: 1rem;
     justify-content: center;
     align-items: flex-start;
-    width: 100%;
+    width: 60%;
     height: 100%;
 
     h1,

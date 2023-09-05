@@ -1,6 +1,7 @@
 {
   "experiences": [
     {
+      "title": "Front End Engineer",
       "companyName": "Object Edge",
       "companyLink": "https://www.linkedin.com/company/object-edge/mycompany/",
       "startDate": "10/04/2021",
@@ -10,13 +11,14 @@
       "technologies": "JavaScript | TypeScript, Reactjs, NextJs, RecoilJS, Jest, GRAPHQL, GIT, Storybook, Styled Components | Emotion, GIT, HTML5, CSS | SASS."
     },
     {
+      "title": "Front End Developer",
       "companyName": "Mooveon",
       "companyLink": "",
       "startDate": "10/04/2021",
       "endDate": "10/04/2021",
       "location": "Remote",
-      "description": "bbbbbbbbbbbbbbbb sdadasd asdasdasd sadsadasd sadasdasd",
-      "technologies": ""
+      "description": "Responsible for creating new Front End applications following faithfully prototypes in Figma and delivering the best solutions.",
+      "technologies": "C#, .NET MVC, SQL, GIT, JavaScript | TypeScript, Reactjs, Styled Components, Jquery, HTML5, CSS | SASS"
     }
   ]
 }

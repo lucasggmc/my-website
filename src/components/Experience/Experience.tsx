@@ -6,7 +6,7 @@ import * as S from './styled';
 const Experience = () => {
   console.log({ data });
   return (
-    <S.ExperienceContainer>
+    <S.ExperienceContainer id="experience">
       <h2>PROFESSIONAL EXPERIENCE</h2>
       <ul>
         {data.experiences.map((experience) => {

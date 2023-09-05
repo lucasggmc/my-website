@@ -4,6 +4,7 @@ import Link from 'next/link';
 
 type ExperienceCardProps = {
   experience: {
+    title: string;
     companyName: string;
     startDate: string;
     endDate: string;
@@ -18,7 +19,7 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
     <S.ExperienceCardContainer>
       <Image src="/site/object_edge_logo.jpeg" width={300} height={300} alt="company image" />
       <div>
-        <h3>Front End Engineer</h3>
+        <h3>{experience.title}</h3>
         <Link href="https://www.linkedin.com/company/object-edge/mycompany/">
           {experience.companyName}
         </Link>

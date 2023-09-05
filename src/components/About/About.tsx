@@ -4,7 +4,7 @@ import * as S from './styled';
 
 const About = () => {
   return (
-    <S.AboutContainer>
+    <S.AboutContainer id="about">
       <h2>ABOUT ME</h2>
       <p>
         As a Full Stack developer focused on Front End I have been working with Web development

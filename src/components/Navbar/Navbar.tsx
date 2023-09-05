@@ -1,4 +1,6 @@
 import * as S from './styled';
+import { Menu } from '@styled-icons/evaicons-solid/Menu';
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -6,12 +8,20 @@ const Navbar = () => {
       <span>logo</span>
       <div>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Experience</li>
-          <li>Contact</li>
+          <li>
+            <Link href="#home">Home</Link>
+          </li>
+          <li>
+            <Link href="#about">About</Link>
+          </li>
+          <li>
+            <Link href="#experience">Experience</Link>
+          </li>
+          <li>
+            <Link href="#contact">Contact</Link>
+          </li>
         </ul>
-        <span>icon</span>
+        <Menu size={30} title="menu icon" />
       </div>
     </S.NavContainer>
   );

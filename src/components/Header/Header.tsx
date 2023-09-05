@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <S.HeaderContainer>
       <Navbar />
-      <S.ContentContainer>
+      <S.ContentContainer id="home">
         <main>
           <h1>
             Hi! I am <span>Lucas Carneiro</span>
