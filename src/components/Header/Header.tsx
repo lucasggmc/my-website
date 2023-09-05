@@ -19,7 +19,6 @@ const Header = () => {
             I am a Full Stack Developer focused on <span>Front End</span>
           </h2>
           <p>
-            {' '}
             I'm passionate about technology, I love solving complex problems with lines of code, I'm
             always looking for what's new and keeping myself updated
           </p>
