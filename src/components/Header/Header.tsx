@@ -18,7 +18,11 @@ const Header = () => {
           <h2>
             I am a Full Stack Developer focused on <span>Front End</span>
           </h2>
-          <p> I started my career asdasd asdasdasd asdasdas asdas</p>
+          <p>
+            {' '}
+            I'm passionate about technology, I love solving complex problems with lines of code, I'm
+            always looking for what's new and keeping myself updated
+          </p>
 
           <S.SocialMediaContainer>
             <Link href="https://www.linkedin.com/in/lucas-gabriel96">

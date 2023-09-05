@@ -14,4 +14,13 @@ export const ExperienceCardContainer = styled.div`
   p {
     margin-top: 1rem;
   }
+
+  img {
+    height: 3rem;
+    width: 3rem;
+  }
+`;
+
+export const HighLight = styled.span`
+  color: var(--red);
 `;

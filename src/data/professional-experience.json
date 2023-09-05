@@ -2,17 +2,21 @@
   "experiences": [
     {
       "companyName": "Object Edge",
+      "companyLink": "https://www.linkedin.com/company/object-edge/mycompany/",
       "startDate": "10/04/2021",
-      "endDate": "current",
+      "endDate": "Present",
       "location": "Remote",
-      "description": "sadsadsdasdsa"
+      "description": "Working on international projects using English as a language main, I was part of a project where partner mechanics from the greater São Paulo can sell their automotive services in a marketplace to customers B2C and worked on building e-commerce for parts sales automotive, a project today with a large number of products registered and partnership with Bosch Brazil. I am currently working on an application configuration.",
+      "technologies": "JavaScript | TypeScript, Reactjs, NextJs, RecoilJS, Jest, GRAPHQL, GIT, Storybook, Styled Components | Emotion, GIT, HTML5, CSS | SASS."
     },
     {
       "companyName": "Mooveon",
+      "companyLink": "",
       "startDate": "10/04/2021",
       "endDate": "10/04/2021",
       "location": "Remote",
-      "description": "bbbbbbbbbbbbbbbb sdadasd asdasdasd sadsadasd sadasdasd"
+      "description": "bbbbbbbbbbbbbbbb sdadasd asdasdasd sadsadasd sadasdasd",
+      "technologies": ""
     }
   ]
 }

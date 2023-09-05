@@ -32,7 +32,7 @@ export const ContentContainer = styled.div`
     }
 
     span {
-      color: var(--color-red);
+      color: var(--red);
       display: inline;
     }
 
@@ -63,9 +63,5 @@ export const SocialMediaContainer = styled.div`
 
   a {
     color: black;
-    transition: opacity 0.2s;
-    &:hover {
-      opacity: 0.7;
-    }
   }
 `;
