@@ -3,7 +3,7 @@ import { styled } from 'styled-components';
 export const HeaderContainer = styled.header`
   height: 20rem;
   padding: 0 4rem;
-  background-color: var(--gray);
+  background-color: var(--grey);
 `;
 
 export const ContentContainer = styled.div`
@@ -50,10 +50,10 @@ export const ContentContainer = styled.div`
   }
 
   img {
-    position: absolute;
-    right: 5rem;
-    height: 15.9rem;
-    width: 15.9rem;
+    border-radius: 100%;
+    border: 2px solid black;
+    height: 13.9rem;
+    width: 13.9rem;
   }
 `;
 

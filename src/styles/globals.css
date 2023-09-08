@@ -1,6 +1,6 @@
 :root {
   --white: #fff;
-  --gray: #f4f4f4;
+  --grey: #f4f4f4;
   --red: #de2c62;
   --border-color: #bdc1c9;
 }
@@ -32,7 +32,6 @@ textarea {
   line-height: 2;
   line-height: 1.5rem;
   border: 1px solid var(--border-color);
-  color: var(--border-color);
   border-radius: 0.5rem;
   outline-color: var(--border-color);
 }

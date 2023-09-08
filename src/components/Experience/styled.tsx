@@ -9,7 +9,7 @@ export const ExperienceContainer = styled.div`
   align-items: center;
   gap: 3rem;
   width: 100%;
-  background-color: var(--gray);
+  background-color: var(--grey);
 
   p {
     line-height: 1.3rem;

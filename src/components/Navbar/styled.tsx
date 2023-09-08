@@ -5,7 +5,17 @@ import { styled } from 'styled-components';
 export const NavContainer = styled.nav`
   display: flex;
   justify-content: space-between;
-  //padding: 0.5rem 0;
+
+  span {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  img {
+    cursor: pointer;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 
   svg {
     cursor: pointer;
