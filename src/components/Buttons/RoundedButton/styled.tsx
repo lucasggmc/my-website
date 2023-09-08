@@ -8,7 +8,6 @@ export const RoundedButton = styled.button`
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 1em;
   padding: 1em 2em;
   font-weight: bold;
   cursor: pointer;

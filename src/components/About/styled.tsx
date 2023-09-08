@@ -11,4 +11,8 @@ export const AboutContainer = styled.div`
   p {
     line-height: 1.3rem;
   }
+
+  button {
+    margin: 1rem;
+  }
 `;
