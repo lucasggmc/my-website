@@ -8,6 +8,7 @@ export const NavContainer = styled.nav`
 
   span {
     display: flex;
+    align-items: center;
     gap: 0.5rem;
   }
 
@@ -17,6 +18,26 @@ export const NavContainer = styled.nav`
     height: 1.5rem;
   }
 
+  @media (min-width: 700px) {
+    svg {
+      display: none;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  }
+
+  @media (max-width: 699px) {
+    ul {
+      display: none;
+    }
+  }
+
   svg {
     cursor: pointer;
     transition: color 0.2s;
@@ -24,14 +45,6 @@ export const NavContainer = styled.nav`
     :hover {
       color: var(--red);
     }
-  }
-
-  ul {
-    display: flex;
-    align-items: center;
-    gap: 3rem;
-    text-transform: uppercase;
-    font-weight: 700;
   }
 
   div {

@@ -1,7 +1,6 @@
 import { styled } from 'styled-components';
 
 export const ExperienceContainer = styled.div`
-  padding: 2rem 10rem;
   height: auto;
   min-height: 20rem;
   display: flex;
@@ -10,6 +9,14 @@ export const ExperienceContainer = styled.div`
   gap: 3rem;
   width: 100%;
   background-color: var(--grey);
+
+  @media (min-width: 700px) {
+    padding: 2rem 10rem;
+  }
+
+  @media (max-width: 699px) {
+    padding: 2rem 2rem;
+  }
 
   p {
     line-height: 1.3rem;

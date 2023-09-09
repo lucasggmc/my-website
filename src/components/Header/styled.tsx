@@ -1,9 +1,16 @@
 import { styled } from 'styled-components';
 
 export const HeaderContainer = styled.header`
-  height: 20rem;
-  padding: 0 4rem;
+  min-height: 20rem;
   background-color: var(--grey);
+
+  @media (min-width: 700px) {
+    padding: 0 4rem;
+  }
+
+  @media (max-width: 699px) {
+    padding: 0 2rem;
+  }
 `;
 
 export const ContentContainer = styled.div`
@@ -12,6 +19,25 @@ export const ContentContainer = styled.div`
   align-items: center;
   height: 100%;
   width: 100%;
+  padding-top: 2rem;
+
+  @media (min-width: 700px) {
+    main {
+      width: 60%;
+    }
+  }
+
+  @media (max-width: 700px) {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    main {
+      width: 100%;
+    }
+  }
 
   main {
     display: flex;
@@ -19,7 +45,6 @@ export const ContentContainer = styled.div`
     gap: 1rem;
     justify-content: center;
     align-items: flex-start;
-    width: 60%;
     height: 100%;
 
     h1,
