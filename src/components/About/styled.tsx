@@ -12,7 +12,7 @@ export const AboutContainer = styled.div`
   }
 
   @media (min-width: 700px) {
-    padding: 2rem 10rem;
+    padding: 2rem 4rem;
   }
 
   p {
@@ -21,5 +21,12 @@ export const AboutContainer = styled.div`
 
   button {
     margin: 1rem;
+  }
+
+  a {
+    //override default color red on hover of links
+    :hover {
+      color: var(--white);
+    }
   }
 `;

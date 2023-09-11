@@ -1,8 +1,11 @@
 'use client';
 import { RoundedButton } from '../Buttons/RoundedButton';
+import Link from 'next/link';
 import * as S from './styled';
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const About = () => {
+  const { currentTranslation } = useTranslation();
   return (
     <S.AboutContainer id="about">
       <h2>ABOUT ME</h2>
@@ -15,7 +18,14 @@ const About = () => {
         RecoilJs, Apollo, GRAPHQL | REST, and NodeJs, at the moment I have been studying Docker,
         Kubernetes, CI/CD and AWS.
       </p>
-      <RoundedButton text="DOWNLOAD CV" />
+      <Link
+        href="/site/Resume-English-Lucas-Carneiro.pdf"
+        download="Resume-English-Lucas-Carneiro"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <RoundedButton text="DOWNLOAD CV" />
+      </Link>
     </S.AboutContainer>
   );
 };

@@ -1,9 +1,12 @@
+'use client';
 import * as S from './styled';
 import Image from 'next/image';
 import { HamburgerMenuMobile } from '../HamburgerMenuMobile';
 import { HamburgerMenuDesktop } from '../HamburgerMenuDesktop';
+import { useTranslation, Language } from '@/contexts/TranslationContext';
 
 const Navbar = () => {
+  const { setCurrentTranslation } = useTranslation();
   return (
     <S.NavContainer>
       <div>
@@ -17,6 +20,7 @@ const Navbar = () => {
           height={50}
           alt="us flag to change language"
           title="change language to English"
+          onClick={() => setCurrentTranslation(Language.ENG)}
         />
         <Image
           src="/site/brazil.png"
@@ -24,6 +28,7 @@ const Navbar = () => {
           height={50}
           alt="brazil flag to change language"
           title="change language to Portuguese"
+          onClick={() => setCurrentTranslation(Language.POR)}
         />
       </span>
     </S.NavContainer>

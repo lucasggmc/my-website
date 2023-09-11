@@ -9,7 +9,7 @@ export const ContactContainer = styled.div`
   margin-bottom: 3rem;
 
   @media (min-width: 700px) {
-    padding: 2rem 10rem;
+    padding: 2rem 4rem;
   }
 
   @media (max-width: 699px) {
