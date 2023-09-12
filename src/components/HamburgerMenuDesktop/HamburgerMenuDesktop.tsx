@@ -8,7 +8,7 @@ const HamburgerMenuDesktop = () => {
   return (
     <S.HamburgerMenuDesktopContainer>
       <li>
-        <Link href="#home">{siteData.navbarList[0]}</Link>
+        <Link href="/">{siteData.navbarList[0]}</Link>
       </li>
       <li>
         <Link href="#about">{siteData.navbarList[1]}</Link>

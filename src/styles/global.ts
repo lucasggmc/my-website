@@ -1,4 +1,9 @@
-:root {
+'use client';
+
+import { createGlobalStyle } from 'styled-components';
+
+const GlobalStyles = createGlobalStyle`
+  :root {
   --white: #fff;
   --grey: #f4f4f4;
   --red: #de2c62;
@@ -64,3 +69,7 @@ a {
 a:hover {
   color: var(--red);
 }
+
+`;
+
+export default GlobalStyles;
