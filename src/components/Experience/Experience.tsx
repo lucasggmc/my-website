@@ -1,15 +1,16 @@
 'use client';
+import { useTranslation } from '@/contexts/TranslationContext';
 import { ExperienceCard } from './ExperienceCard';
-import data from '../../data/professional-experience.json';
 import * as S from './styled';
 
 const Experience = () => {
-  console.log({ data });
+  const { siteData } = useTranslation();
+
   return (
     <S.ExperienceContainer id="experience">
-      <h2>PROFESSIONAL EXPERIENCE</h2>
+      <h2>{siteData.professionalExperience.title}</h2>
       <ul>
-        {data.experiences.map((experience) => {
+        {siteData.professionalExperience.experiences.map((experience: any) => {
           return (
             <li key={experience.companyName}>
               <ExperienceCard experience={experience} />

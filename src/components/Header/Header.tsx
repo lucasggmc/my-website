@@ -5,23 +5,25 @@ import Image from 'next/image';
 import { Linkedin } from '@styled-icons/boxicons-logos/Linkedin';
 import { GithubOutline } from '@styled-icons/evaicons-outline/GithubOutline';
 import Link from 'next/link';
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const Header = () => {
+  const { siteData } = useTranslation();
+
   return (
     <S.HeaderContainer>
       <Navbar />
       <S.ContentContainer id="home">
         <main>
           <h1>
-            Hi! I am <span>Lucas Carneiro</span>
+            {siteData.header.h1}
+            <span>Lucas Carneiro</span>
           </h1>
           <h2>
-            I am a Full Stack Developer focused on <span>Front End</span>
+            {siteData.header.h2}
+            <span>Front End</span>
           </h2>
-          <p>
-            I'm passionate about technology, I love solving complex problems with lines of code, I'm
-            always looking for what's new and keeping myself updated
-          </p>
+          <p>{siteData.header.description}</p>
 
           <S.SocialMediaContainer>
             <Link href="https://www.linkedin.com/in/lucas-gabriel96">
