@@ -1,11 +1,11 @@
 import * as S from './styled';
 
-type Params = {
+type Params = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   text: string;
 };
 
-const RoundedButton = ({ text }: Params) => {
-  return <S.RoundedButton>{text}</S.RoundedButton>;
+const RoundedButton = ({ text, ...props }: Params) => {
+  return <S.RoundedButton {...props}>{text}</S.RoundedButton>;
 };
 
 export { RoundedButton };
