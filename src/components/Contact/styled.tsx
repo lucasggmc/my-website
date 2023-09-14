@@ -28,3 +28,13 @@ export const ContactContainer = styled.div`
     }
   }
 `;
+
+export const FormErrorsArea = styled.div`
+  color: red;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+`;

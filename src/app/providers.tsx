@@ -4,6 +4,7 @@ import { PropsWithChildren } from 'react';
 import GlobalStyles from '@/styles/global';
 import TranslationProvider from '@/contexts/TranslationContext';
 import NextTopLoader from 'nextjs-toploader';
+import { Toaster } from 'react-hot-toast';
 
 export function Providers({ children }: PropsWithChildren) {
   return (
@@ -19,6 +20,7 @@ export function Providers({ children }: PropsWithChildren) {
         speed={200}
         shadow="0 0 10px #de2c62,0 0 5px #de2c62"
       />
+      <Toaster />
       <GlobalStyles />
       {children}
     </TranslationProvider>
