@@ -7,9 +7,9 @@ export async function POST(req: Request) {
     sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
     const msg = {
-      to: data.email,
-      from: 'contato@lucascarneiro.com',
-      subject: `Novo contato recebido do seu website : ${data.name}`,
+      to: process.env.PERSONAL_EMAIL,
+      from: process.env.EMAIL_DOMAIN,
+      subject: `Novo contato recebido do seu website : Nome:${data.name}, Email: ${data.email}`,
       text: data.message,
       html: `<p>${data.message}</p>`,
     };

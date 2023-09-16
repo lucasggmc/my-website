@@ -32,15 +32,8 @@ const Header = () => {
             <Link href="https://github.com/lucasggmc">
               <GithubOutline size={20} title="github link" />
             </Link>
-            <Link href="https://www.linkedin.com/in/lucas-gabriel96">
-              <Linkedin size={20} title="linkedin link" />
-            </Link>
-            <Link href="https://github.com/lucasggmc">
-              <GithubOutline size={20} title="github link" />
-            </Link>
           </S.SocialMediaContainer>
         </main>
-        {/* <Image src="/site/profile.jpeg" width={200} height={200} alt="Picture of the author" /> */}
         <Image
           src="/site/zyro-image (3).png"
           width={1000}

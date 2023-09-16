@@ -17,7 +17,7 @@
         "title": "Front End Engineer",
         "companyName": "Object Edge",
         "companyLink": "https://www.linkedin.com/company/object-edge/mycompany/",
-        "startDate": "10/04/2021",
+        "startDate": "01/10/2021",
         "endDate": "Present",
         "location": "Remote",
         "description": "Working on international projects using English as a language main, I was part of a project where partner mechanics from the greater São Paulo can sell their automotive services in a marketplace to customers B2C and worked on building e-commerce for parts sales automotive, a project today with a large number of products registered and partnership with Bosch Brazil. I am currently working on an application configuration.",
@@ -27,11 +27,61 @@
         "title": "Front End Developer",
         "companyName": "Mooveon",
         "companyLink": "",
-        "startDate": "10/04/2021",
-        "endDate": "10/04/2021",
+        "startDate": "01/05/2021",
+        "endDate": "30/09/2021",
         "location": "Remote",
         "description": "Responsible for creating new Front End applications following faithfully prototypes in Figma and delivering the best solutions.",
         "technologies": "C#, .NET MVC, SQL, GIT, JavaScript | TypeScript, Reactjs, Styled Components, Jquery, HTML5, CSS | SASS"
+      },
+      {
+        "title": "Full Stack Developer",
+        "companyName": "Faculdade UNINA",
+        "companyLink": "",
+        "startDate": "01/08/2020",
+        "endDate": "14/02/2021",
+        "location": "Remote",
+        "description": "I worked mainly in the maintenance and creation of new modules of Internal system and college student environment.",
+        "technologies": "C#, .NET MVC, DDD, SQL, GIT, JavaScript, AngularJS, VueJS, Jquery, HTML5, CSS"
+      },
+      {
+        "title": "Full Stack Developer",
+        "companyName": "N&J Partners Consultoria",
+        "companyLink": "",
+        "startDate": "10/08/2018",
+        "endDate": "20/06/2020",
+        "location": "Remote",
+        "description": "I participated in the refactoring of the old system, ensuring high availability during the day, security in transactions and reliability in the values of large financial transactions.",
+        "technologies": "C#, .NET MVC, DDD, SQL, GIT, JavaScript, AngularJS, Jquery, HTML5, CSS"
+      },
+      {
+        "title": "Front End Developer",
+        "companyName": "Deal",
+        "companyLink": "",
+        "startDate": "05/03/2018",
+        "endDate": "05/08/2020",
+        "location": "Remote",
+        "description": "Allocated to clients, I participated in the creation and maintenance of a online vehicle auction.",
+        "technologies": "C#, .NET MVC, JavaScript, Jquery, HTML5, CSS"
+      },
+      {
+        "title": "Web Developer (Intern)",
+        "companyName": "Serdia Eletrônica Industrial",
+        "companyLink": "",
+        "startDate": "01/10/2016",
+        "endDate": "01/06/2017",
+        "location": "Remote",
+        "description": "Web development with PHP and support to the company's ERP users through internal and external calls.",
+        "technologies": "PHP, SQL, JavaScript, Jquery, HTML5, CSS"
+      },
+      {
+        "title": "Web Developer (Intern)",
+        "companyName": "Ibolt sys",
+        "companyLink": "",
+        "startDate": "01/11/2015",
+        "endDate": "01/10/2016",
+        "location": "Remote",
+        "description": "Web development using PHP and Desktop with Filemaker, also supporting users of the company's systems.",
+        "technologies": "Used Technologies: PHP, SQL, JavaScript, Jquery, HTML5, CSS"
       }
     ]
   },
