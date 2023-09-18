@@ -1,6 +1,9 @@
+import { formatDistanceStrict } from 'date-fns';
+import { ptBR } from 'date-fns/locale';
 import * as S from './styled';
 import Image from 'next/image';
 import Link from 'next/link';
+import { Language, useTranslation } from '@/contexts/TranslationContext';
 
 type ExperienceCardProps = {
   experience: {
@@ -15,6 +18,11 @@ type ExperienceCardProps = {
 };
 
 const ExperienceCard = ({ experience }: ExperienceCardProps) => {
+  const { currentTranslation } = useTranslation();
+  const endDate = experience.endDate ? new Date(experience.endDate) : new Date();
+  const timeDistance = formatDistanceStrict(new Date(experience.startDate), endDate, {
+    locale: currentTranslation === Language.POR ? ptBR : undefined,
+  });
   return (
     <S.ExperienceCardContainer>
       <Image src="/site/object_edge_logo.jpeg" width={300} height={300} alt="company image" />
@@ -24,7 +32,7 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
           {experience.companyName}
         </Link>
         <span>
-          {experience.startDate} - {experience.endDate} - 2 years
+          {experience.startDate} {experience.endDate && ` - ${experience.endDate}`} - {timeDistance}
         </span>
         <S.HighLight>{experience.location}</S.HighLight>
         <p>{experience.description}</p>
