@@ -19,10 +19,16 @@ type ExperienceCardProps = {
 
 const ExperienceCard = ({ experience }: ExperienceCardProps) => {
   const { currentTranslation } = useTranslation();
-  const endDate = experience.endDate ? new Date(experience.endDate) : new Date();
-  const timeDistance = formatDistanceStrict(new Date(experience.startDate), endDate, {
-    locale: currentTranslation === Language.POR ? ptBR : undefined,
-  });
+  const isLanguageBR = currentTranslation === Language.POR;
+
+  const startDate = experience.startDate ? new Date(experience.startDate) : new Date();
+  const moment = isLanguageBR ? 'O momento' : 'Present';
+  const timeDistance = experience.endDate
+    ? formatDistanceStrict(startDate, new Date(experience.endDate), {
+        locale: isLanguageBR ? ptBR : undefined,
+      })
+    : moment;
+
   return (
     <S.ExperienceCardContainer>
       <Image src="/site/object_edge_logo.jpeg" width={300} height={300} alt="company image" />
