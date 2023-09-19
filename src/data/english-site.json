@@ -42,7 +42,7 @@
         "startDate": "08/01/2020",
         "endDate": "02/14/2021",
         "location": "Remote",
-        "description": "Unina is a distance learning college. I worked mainly in the maintenance and creation of new modules of Internal system and college student environment.",
+        "description": "Unina is a distance-learning college. I worked mainly in maintaining and creating new modules of the Internal system and college student environment.",
         "technologies": "C#, .NET MVC, DDD, SQL, GIT, JavaScript, AngularJS, VueJS, Jquery, HTML5, CSS"
       },
       {
@@ -53,7 +53,7 @@
         "startDate": "08/10/2018",
         "endDate": "06/20/2020",
         "location": "Remote",
-        "description": "N&J Partners Consultoria was the technology arm of a company that managed investment funds. I participated in the refactoring of the old system, ensuring high availability during the day, security in transactions and reliability in the values of large financial transactions.",
+        "description": "N&J Partners Consultoria was the technology arm of a company that managed investment funds. I participated in refactoring the old system, ensuring high availability during the day, security in transactions and reliability in the values of large financial transactions.",
         "technologies": "C#, .NET MVC, DDD, SQL, GIT, JavaScript, AngularJS, Jquery, HTML5, CSS"
       },
       {
@@ -64,7 +64,7 @@
         "startDate": "03/05/2018",
         "endDate": "08/05/2020",
         "location": "Remote",
-        "description": "Deal is a consulting company. Allocated to clients, I participated in the creation and maintenance of a online vehicle auction.",
+        "description": "Deal is a consulting company. Allocated to clients, I participated in the creation and maintenance of an online vehicle auction.",
         "technologies": "C#, .NET MVC, JavaScript, Jquery, HTML5, CSS"
       },
       {
