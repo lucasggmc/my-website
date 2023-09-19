@@ -17,6 +17,7 @@
         "title": "Front End Engineer",
         "companyName": "Object Edge",
         "companyLink": "https://www.linkedin.com/company/object-edge/mycompany/",
+        "companyImage": "/site/object_edge_logo.jpeg",
         "startDate": "10/01/2021",
         "endDate": "",
         "location": "Remote",
@@ -26,7 +27,7 @@
       {
         "title": "Front End Developer",
         "companyName": "Mooveon",
-        "companyLink": "",
+        "companyLink": "https://www.linkedin.com/in/moondu-solu%C3%A7%C3%B5es-05494117b/",
         "startDate": "05/01/2021",
         "endDate": "09/29/2021",
         "location": "Remote",
@@ -36,7 +37,8 @@
       {
         "title": "Full Stack Developer",
         "companyName": "Faculdade UNINA",
-        "companyLink": "",
+        "companyLink": "https://www.linkedin.com/school/faculdade-unina/",
+        "companyImage": "/site/faculdade_unina_logo.jpeg",
         "startDate": "08/01/2020",
         "endDate": "02/14/2021",
         "location": "Remote",
@@ -46,7 +48,8 @@
       {
         "title": "Full Stack Developer",
         "companyName": "N&J Partners Consultoria",
-        "companyLink": "",
+        "companyLink": "https://www.linkedin.com/company/codhalum-consultoria/",
+        "companyImage": "/site/codhalum_consultoria_logo.jpeg",
         "startDate": "08/10/2018",
         "endDate": "06/20/2020",
         "location": "Remote",
@@ -56,7 +59,8 @@
       {
         "title": "Front End Developer",
         "companyName": "Deal",
-        "companyLink": "",
+        "companyLink": "https://www.linkedin.com/company/deal/",
+        "companyImage": "/site/deal_logo.jpeg",
         "startDate": "03/05/2018",
         "endDate": "08/05/2020",
         "location": "Remote",
@@ -66,7 +70,8 @@
       {
         "title": "Web Developer (Intern)",
         "companyName": "Serdia Eletrônica Industrial",
-        "companyLink": "",
+        "companyLink": "https://www.linkedin.com/company/serdia-eletr%C3%B4nica-industrual/",
+        "companyImage": "/site/serdia_eletrnica_industrual_logo.jpeg",
         "startDate": "10/01/2016",
         "endDate": "06/01/2017",
         "location": "Remote",
@@ -76,7 +81,7 @@
       {
         "title": "Web Developer (Intern)",
         "companyName": "Ibolt sys",
-        "companyLink": "",
+        "companyLink": "http://www.iboltsys.com.br/",
         "startDate": "11/01/2015",
         "endDate": "10/01/2016",
         "location": "Remote",

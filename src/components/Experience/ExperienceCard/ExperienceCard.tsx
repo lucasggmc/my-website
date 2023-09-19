@@ -9,6 +9,8 @@ type ExperienceCardProps = {
   experience: {
     title: string;
     companyName: string;
+    companyLink: string;
+    companyImage: string;
     startDate: string;
     endDate: string;
     location: string;
@@ -31,12 +33,15 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
 
   return (
     <S.ExperienceCardContainer>
-      <Image src="/site/object_edge_logo.jpeg" width={300} height={300} alt="company image" />
+      <Image
+        src={experience.companyImage || '/site/company_default.png'}
+        width={300}
+        height={300}
+        alt="company image"
+      />
       <div>
         <h3>{experience.title}</h3>
-        <Link href="https://www.linkedin.com/company/object-edge/mycompany/">
-          {experience.companyName}
-        </Link>
+        <Link href={experience.companyLink}>{experience.companyName}</Link>
         <span>
           {experience.startDate} {experience.endDate && ` - ${experience.endDate}`} - {timeDistance}
         </span>
