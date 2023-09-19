@@ -19,6 +19,10 @@ export const ExperienceCardContainer = styled.div`
     height: 3rem;
     width: 3rem;
   }
+
+  a {
+    text-decoration: underline;
+  }
 `;
 
 export const HighLight = styled.span`

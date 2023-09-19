@@ -7,7 +7,7 @@
   },
   "about": {
     "title": "ABOUT ME",
-    "description": "As a Full Stack developer focused on Front End I have been working with Web development since 2016, during this period I participated in building and maintaining several applications from different segments, financial, educational, and e-commerce. In that time as a developer, I have always been challenged to learn new technologies and generate good results in a short time. My main stack is Javascript | TypeScript, React, NextJs, Jest, RecoilJs, Apollo, GRAPHQL | REST, and NodeJs, at the moment I have been studying Docker, Kubernetes, CI/CD and AWS.",
+    "description": "As a Full Stack developer focused on Front End I have been working with Web development since 2016, during this period I participated in building and maintaining several applications from different segments, financial, educational, and e-commerce. In that time as a developer, I've constantly been challenged to learn new technologies and generate good results quickly. My primary stack is Javascript | TypeScript, React, NextJs, Jest, RecoilJs, Apollo, GRAPHQL | REST, and NodeJs, at the moment I've been studying Docker, CI/CD, and AWS.",
     "buttonText": "DOWNLOAD CV"
   },
   "professionalExperience": {
@@ -20,7 +20,7 @@
         "startDate": "10/01/2021",
         "endDate": "",
         "location": "Remote",
-        "description": "Working on international projects using English as a language main, I was part of a project where partner mechanics from the greater São Paulo can sell their automotive services in a marketplace to customers B2C and worked on building e-commerce for parts sales automotive, a project today with a large number of products registered and partnership with Bosch Brazil. I am currently working on an application configuration.",
+        "description": "Object Edge is a consulting company. I have experience working on international projects that primarily use English as the language of communication. Specifically, I have been involved in two projects. The first project involved partnering with several mechanical stores to create an e-commerce platform for automotive parts. This project has been successful, with a large number of products registered and a partnership established with Bosch Brazil. The second project involved working with the sales team to configure service packages for high-value internet equipment.",
         "technologies": "JavaScript | TypeScript, Reactjs, NextJs, RecoilJS, Jest, GRAPHQL, GIT, Storybook, Styled Components | Emotion, GIT, HTML5, CSS | SASS."
       },
       {
@@ -30,7 +30,7 @@
         "startDate": "05/01/2021",
         "endDate": "09/29/2021",
         "location": "Remote",
-        "description": "Responsible for creating new Front End applications following faithfully prototypes in Figma and delivering the best solutions.",
+        "description": "Mooveon is a Software House. I was responsible for creating new Front End applications following prototypes in Figma and delivering the best solutions.",
         "technologies": "C#, .NET MVC, SQL, GIT, JavaScript | TypeScript, Reactjs, Styled Components, Jquery, HTML5, CSS | SASS"
       },
       {
@@ -40,7 +40,7 @@
         "startDate": "08/01/2020",
         "endDate": "02/14/2021",
         "location": "Remote",
-        "description": "I worked mainly in the maintenance and creation of new modules of Internal system and college student environment.",
+        "description": "Unina is a distance learning college. I worked mainly in the maintenance and creation of new modules of Internal system and college student environment.",
         "technologies": "C#, .NET MVC, DDD, SQL, GIT, JavaScript, AngularJS, VueJS, Jquery, HTML5, CSS"
       },
       {
@@ -50,7 +50,7 @@
         "startDate": "08/10/2018",
         "endDate": "06/20/2020",
         "location": "Remote",
-        "description": "I participated in the refactoring of the old system, ensuring high availability during the day, security in transactions and reliability in the values of large financial transactions.",
+        "description": "N&J Partners Consultoria was the technology arm of a company that managed investment funds. I participated in the refactoring of the old system, ensuring high availability during the day, security in transactions and reliability in the values of large financial transactions.",
         "technologies": "C#, .NET MVC, DDD, SQL, GIT, JavaScript, AngularJS, Jquery, HTML5, CSS"
       },
       {
@@ -60,7 +60,7 @@
         "startDate": "03/05/2018",
         "endDate": "08/05/2020",
         "location": "Remote",
-        "description": "Allocated to clients, I participated in the creation and maintenance of a online vehicle auction.",
+        "description": "Deal is a consulting company. Allocated to clients, I participated in the creation and maintenance of a online vehicle auction.",
         "technologies": "C#, .NET MVC, JavaScript, Jquery, HTML5, CSS"
       },
       {
@@ -70,7 +70,7 @@
         "startDate": "10/01/2016",
         "endDate": "06/01/2017",
         "location": "Remote",
-        "description": "Web development with PHP and support to the company's ERP users through internal and external calls.",
+        "description": "Serdia is an electronic board manufacturing company. Web development with PHP and support to the company's ERP users through internal and external calls.",
         "technologies": "PHP, SQL, JavaScript, Jquery, HTML5, CSS"
       },
       {
@@ -80,7 +80,7 @@
         "startDate": "11/01/2015",
         "endDate": "10/01/2016",
         "location": "Remote",
-        "description": "Web development using PHP and Desktop with Filemaker, also supporting users of the company's systems.",
+        "description": "Ibolt sys is a Software House. Web development using PHP and Desktop with Filemaker, also supporting users of the company's systems.",
         "technologies": "Used Technologies: PHP, SQL, JavaScript, Jquery, HTML5, CSS"
       }
     ]
