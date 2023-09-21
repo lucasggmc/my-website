@@ -19,8 +19,8 @@ export const inter = Inter({
 });
 
 export const metadata = {
-  title: 'lucascarneiro.com',
-  description: 'my profile website',
+  title: 'Home | Lucas Carneiro',
+  description: 'lucascarneiro.com',
   icons: [
     {
       url: '/favicon.ico',

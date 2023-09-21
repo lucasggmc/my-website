@@ -11,7 +11,7 @@ const About = () => {
       <h2>{siteData.about.title}</h2>
       <p>{siteData.about.description}</p>
       <Link
-        href="/site/Resume-English-Lucas-Carneiro.pdf"
+        href="/site/Resume-Lucas-Carneiro.pdf"
         download="Resume-English-Lucas-Carneiro"
         target="_blank"
         rel="noreferrer"

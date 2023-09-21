@@ -34,12 +34,7 @@ const Header = () => {
             </Link>
           </S.SocialMediaContainer>
         </main>
-        <Image
-          src="/site/zyro-image (3).png"
-          width={1000}
-          height={1000}
-          alt="Picture of the author"
-        />
+        <Image src="/site/profile.png" width={1000} height={1000} alt="Picture of the author" />
       </S.ContentContainer>
     </S.HeaderContainer>
   );
