@@ -9,7 +9,7 @@ export const FooterContainer = styled.footer`
   min-height: 4rem;
 
   span {
-    color: var(--red);
+    color: var(--green);
     margin-left: 0.5rem;
     margin-right: 0.5rem;
   }

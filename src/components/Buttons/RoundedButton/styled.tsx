@@ -1,7 +1,7 @@
 import { styled } from 'styled-components';
 
 export const RoundedButton = styled.button`
-  background: var(--red);
+  background: var(--green);
   border-radius: 30px;
   border: none;
   color: white;

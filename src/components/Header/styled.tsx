@@ -57,7 +57,7 @@ export const ContentContainer = styled.div`
     }
 
     span {
-      color: var(--red);
+      color: var(--green);
       display: inline;
     }
 

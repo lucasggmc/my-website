@@ -19,6 +19,9 @@ const HamburgerMenuDesktop = () => {
       <li>
         <Link href="#contact">{siteData.navbarList[3]}</Link>
       </li>
+      <S.HighlightItem>
+        <Link href="/blog">{siteData.navbarList[4]}</Link>
+      </S.HighlightItem>
     </S.HamburgerMenuDesktopContainer>
   );
 };

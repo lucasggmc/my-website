@@ -23,7 +23,7 @@ export const NavContainer = styled.nav`
     transition: color 0.2s;
 
     :hover {
-      color: var(--red);
+      color: var(--green);
     }
   }
 `;

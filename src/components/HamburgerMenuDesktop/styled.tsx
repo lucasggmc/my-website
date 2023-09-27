@@ -13,3 +13,9 @@ export const HamburgerMenuDesktopContainer = styled.ul`
     display: none;
   }
 `;
+
+export const HighlightItem = styled.li`
+  a {
+    color: var(--green);
+  }
+`;

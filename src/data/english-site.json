@@ -1,5 +1,5 @@
 {
-  "navbarList": ["HOME", "ABOUT", "EXPERIENCE", "CONTACT"],
+  "navbarList": ["HOME", "ABOUT", "EXPERIENCE", "CONTACT", "BLOG"],
   "header": {
     "h1": "HI! I AM ",
     "h2": "I AM A FULL STACK DEVELOPER FOCUSED ON ",

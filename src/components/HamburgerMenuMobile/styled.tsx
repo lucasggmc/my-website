@@ -118,3 +118,9 @@ export const HamburgerMenuContainer = styled.div`
     }
   }
 `;
+
+export const HighlightItem = styled.li`
+  a {
+    color: var(--green);
+  }
+`;

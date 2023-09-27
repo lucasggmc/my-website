@@ -26,5 +26,5 @@ export const ExperienceCardContainer = styled.div`
 `;
 
 export const HighLight = styled.span`
-  color: var(--red);
+  color: var(--green);
 `;

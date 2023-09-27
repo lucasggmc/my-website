@@ -6,7 +6,7 @@ const GlobalStyles = createGlobalStyle`
   :root {
   --white: #fff;
   --grey: #f4f4f4;
-  --red: #de2c62;
+  --green: #33b53d;
   --border-color: #bdc1c9;
 }
 
@@ -62,12 +62,12 @@ a {
   text-decoration: none;
   transition: color 0.2s;
   :hover {
-    color: var(--red);
+    color: var(--green);
   }
 }
 
 a:hover {
-  color: var(--red);
+  color: var(--green);
 }
 
 `;
