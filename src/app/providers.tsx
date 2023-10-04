@@ -10,7 +10,7 @@ export function Providers({ children }: PropsWithChildren) {
   return (
     <TranslationProvider>
       <NextTopLoader
-        color="#de2c62"
+        color="#33b53d"
         initialPosition={0.08}
         crawlSpeed={200}
         height={3}
@@ -18,7 +18,7 @@ export function Providers({ children }: PropsWithChildren) {
         showSpinner={true}
         easing="ease"
         speed={200}
-        shadow="0 0 10px #de2c62,0 0 5px #de2c62"
+        shadow="0 0 10px #33b53d,0 0 5px #33b53d"
       />
       <Toaster />
       <GlobalStyles />
