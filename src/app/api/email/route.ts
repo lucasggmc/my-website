@@ -13,15 +13,9 @@ export async function POST(req: Request) {
       text: data.message,
       html: `<p>${data.message}</p>`,
     };
-    await sgMail
-      .send(msg)
-      // .then((res: any) => {
-      //   console.log('res', res);
-      //   return NextResponse.json({ message: res }, { status: 200 });
-      // })
-      .catch((error: any) => {
-        return NextResponse.json({ error }, { status: 500 });
-      });
+    await sgMail.send(msg).catch((error: any) => {
+      return NextResponse.json({ error }, { status: 500 });
+    });
     return NextResponse.json({ status: 200 });
   } catch (error) {
     return NextResponse.json({ error }, { status: 500 });

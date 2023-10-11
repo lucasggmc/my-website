@@ -42,10 +42,7 @@ const Contact = () => {
         message: data.message,
       }),
     });
-    console.log('PERSONAL_EMAIL', process.env.PERSONAL_EMAIL);
-    console.log('EMAIL_DOMAIN', process.env.EMAIL_DOMAIN);
 
-    console.log({ response });
     if (response?.status === 200) {
       toast.success('Email sent!');
       reset();
