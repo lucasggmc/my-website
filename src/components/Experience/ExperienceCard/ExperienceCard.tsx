@@ -25,11 +25,12 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
 
   const startDate = experience.startDate ? new Date(experience.startDate) : new Date();
   const moment = isLanguageBR ? 'O momento' : 'Present';
-  const timeDistance = experience.endDate
-    ? formatDistanceStrict(startDate, new Date(experience.endDate), {
-        locale: isLanguageBR ? ptBR : undefined,
-      })
-    : moment;
+  const endDate = experience.endDate ? new Date(experience.endDate) : new Date();
+
+  const formattedDistance = formatDistanceStrict(startDate, endDate, {
+    locale: isLanguageBR ? ptBR : undefined,
+  });
+  const timeDistance = experience.endDate ? formattedDistance : `${moment} - ${formattedDistance}`;
 
   return (
     <S.ExperienceCardContainer>

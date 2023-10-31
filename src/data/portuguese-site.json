@@ -52,7 +52,7 @@
         "companyImage": "/site/codhalum_consultoria_logo.jpeg",
         "startDate": "08/10/2018",
         "endDate": "06/20/2020",
-        "location": "Remote",
+        "location": "Curitiba - PR",
         "description": "A N&J Partners Consultoria era o braço de tecnologia de uma empresa que administrava fundos de investimento. Participei da refatoração do antigo sistema, garantindo alta disponibilidade durante o dia, segurança nas transações e confiabilidade nos valores de grandes transações financeiras.",
         "technologies": "C#, .NET MVC, DDD, SQL, GIT, JavaScript, AngularJS, Jquery, HTML5, CSS"
       },
@@ -63,7 +63,7 @@
         "companyImage": "/site/deal_logo.jpeg",
         "startDate": "03/05/2018",
         "endDate": "08/05/2020",
-        "location": "Remote",
+        "location": "Curitiba - PR",
         "description": "A Deal é uma empresa de consultoria. Alocado em clientes, participei da criação e manutenção de leilão online de veículos.",
         "technologies": "C#, .NET MVC, JavaScript, Jquery, HTML5, CSS"
       },
@@ -74,7 +74,7 @@
         "companyImage": "/site/serdia_eletrnica_industrual_logo.jpeg",
         "startDate": "10/01/2016",
         "endDate": "06/01/2017",
-        "location": "Remote",
+        "location": "Curitiba - PR",
         "description": "A Serdia é uma empresa fabricante de placas eletrônicas. Desenvolvimento web com PHP e suporte aos usuários do ERP da empresa através de chamados internos e externos.",
         "technologies": "PHP, SQL, JavaScript, Jquery, HTML5, CSS"
       },
@@ -84,7 +84,7 @@
         "companyLink": "http://www.iboltsys.com.br/",
         "startDate": "11/01/2015",
         "endDate": "10/01/2016",
-        "location": "Remote",
+        "location": "Curitiba - PR",
         "description": "Ibolt sys é uma Software House. Desenvolvimento Web utilizando PHP e Desktop com Filemaker, dando suporte também aos usuários dos sistemas da empresa.",
         "technologies": "Used Technologies: PHP, SQL, JavaScript, Jquery, HTML5, CSS"
       }

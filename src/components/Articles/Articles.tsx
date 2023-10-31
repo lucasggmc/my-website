@@ -3,6 +3,14 @@ import * as S from './styled';
 import Image from 'next/image';
 import Link from 'next/link';
 
+type Article = {
+  id: number;
+  title: string;
+  description: string;
+  social_image: string;
+  canonical_url: string;
+};
+
 async function getArticles() {
   const ARTICLES_API = 'https://dev.to/api/articles?username=lucascarneiro';
   const res = await fetch(ARTICLES_API);
@@ -21,7 +29,7 @@ const Articles = () => {
 
   return (
     <div>
-      {data?.map((article: any) => (
+      {data?.map((article: Article) => (
         <Link href={article.canonical_url} key={article.id}>
           <S.BlogArticleItem>
             <Image

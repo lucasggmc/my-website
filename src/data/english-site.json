@@ -52,7 +52,7 @@
         "companyImage": "/site/codhalum_consultoria_logo.jpeg",
         "startDate": "08/10/2018",
         "endDate": "06/20/2020",
-        "location": "Remote",
+        "location": "Curitiba - PR",
         "description": "N&J Partners Consultoria was the technology arm of a company that managed investment funds. I participated in refactoring the old system, ensuring high availability during the day, security in transactions and reliability in the values of large financial transactions.",
         "technologies": "C#, .NET MVC, DDD, SQL, GIT, JavaScript, AngularJS, Jquery, HTML5, CSS"
       },
@@ -63,7 +63,7 @@
         "companyImage": "/site/deal_logo.jpeg",
         "startDate": "03/05/2018",
         "endDate": "08/05/2020",
-        "location": "Remote",
+        "location": "Curitiba - PR",
         "description": "Deal is a consulting company. Allocated to clients, I participated in the creation and maintenance of an online vehicle auction.",
         "technologies": "C#, .NET MVC, JavaScript, Jquery, HTML5, CSS"
       },
@@ -74,7 +74,7 @@
         "companyImage": "/site/serdia_eletrnica_industrual_logo.jpeg",
         "startDate": "10/01/2016",
         "endDate": "06/01/2017",
-        "location": "Remote",
+        "location": "Curitiba - PR",
         "description": "Serdia is an electronic board manufacturing company. Web development with PHP and support to the company's ERP users through internal and external calls.",
         "technologies": "PHP, SQL, JavaScript, Jquery, HTML5, CSS"
       },
@@ -84,7 +84,7 @@
         "companyLink": "http://www.iboltsys.com.br/",
         "startDate": "11/01/2015",
         "endDate": "10/01/2016",
-        "location": "Remote",
+        "location": "Curitiba - PR",
         "description": "Ibolt sys is a Software House. Web development using PHP and Desktop with Filemaker, also supporting users of the company's systems.",
         "technologies": "Used Technologies: PHP, SQL, JavaScript, Jquery, HTML5, CSS"
       }
