@@ -1,6 +1,6 @@
 import { Roboto, Inter } from 'next/font/google';
-import StyledComponentsRegistry from '@/lib/styled-components/registry';
 import { Providers } from './providers';
+import GlobalStyles from '@/styles/global';
 
 export const roboto = Roboto({
   weight: ['400', '700'],
@@ -32,9 +32,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${roboto.variable} ${inter.variable}`}>
       <body>
-        <StyledComponentsRegistry>
-          <Providers>{children}</Providers>
-        </StyledComponentsRegistry>
+        <Providers>
+          <GlobalStyles />
+          {children}
+        </Providers>
       </body>
     </html>
   );

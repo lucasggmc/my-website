@@ -1,12 +1,19 @@
 'use client';
+import { Navbar } from '@/components';
 import * as S from './styled';
-import Link from 'next/link';
+import { Articles } from '@/components/Articles';
 
-export default function Blog() {
+export default async function Blog() {
   return (
-    <S.BlogContainer>
-      <h1>Coming soon a page with some technical articles I'm writing...</h1>
-      <Link href="/">back to home</Link>
-    </S.BlogContainer>
+    <>
+      <S.BlogContainer>
+        <Navbar />
+      </S.BlogContainer>
+      <S.BlogContent>
+        <S.BlogArticles>
+          <Articles />
+        </S.BlogArticles>
+      </S.BlogContent>
+    </>
   );
 }

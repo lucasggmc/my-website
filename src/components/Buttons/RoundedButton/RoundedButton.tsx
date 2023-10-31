@@ -5,7 +5,11 @@ type Params = React.ButtonHTMLAttributes<HTMLButtonElement> & {
 };
 
 const RoundedButton = ({ text, ...props }: Params) => {
-  return <S.RoundedButton {...props}>{text}</S.RoundedButton>;
+  return (
+    <div>
+      <S.RoundedButton {...props}>{text}</S.RoundedButton>;
+    </div>
+  );
 };
 
 export { RoundedButton };
