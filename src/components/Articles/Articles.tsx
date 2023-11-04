@@ -1,4 +1,4 @@
-import { use } from 'react';
+import { use, useEffect, useState } from 'react';
 import * as S from './styled';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -26,9 +26,16 @@ const dataPromise = getArticles();
 
 const Articles = () => {
   const data = use(dataPromise);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return <></>;
 
   return (
-    <div>
+    <>
       {data?.map((article: Article) => (
         <Link href={article.canonical_url} key={article.id}>
           <S.BlogArticleItem>
@@ -45,7 +52,7 @@ const Articles = () => {
           </S.BlogArticleItem>
         </Link>
       ))}
-    </div>
+    </>
   );
 };
 
