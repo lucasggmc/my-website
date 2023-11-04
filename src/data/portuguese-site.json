@@ -1,5 +1,5 @@
 {
-  "navbarList": ["INÍCIO", "SOBRE", "EXPERIÊNCIA", "CONTATO"],
+  "navbarList": ["INÍCIO", "SOBRE", "EXPERIÊNCIA", "CONTATO", "BLOG"],
   "header": {
     "h1": "OLÁ! EU SOU O ",
     "h2": "EU SOU DESENVOLVEDOR FULL STACK COM FOCO NO ",
@@ -62,7 +62,7 @@
         "companyLink": "https://www.linkedin.com/company/deal/",
         "companyImage": "/site/deal_logo.jpeg",
         "startDate": "03/05/2018",
-        "endDate": "08/05/2020",
+        "endDate": "08/05/2018",
         "location": "Curitiba - PR",
         "description": "A Deal é uma empresa de consultoria. Alocado em clientes, participei da criação e manutenção de leilão online de veículos.",
         "technologies": "C#, .NET MVC, JavaScript, Jquery, HTML5, CSS"

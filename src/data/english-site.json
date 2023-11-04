@@ -62,7 +62,7 @@
         "companyLink": "https://www.linkedin.com/company/deal/",
         "companyImage": "/site/deal_logo.jpeg",
         "startDate": "03/05/2018",
-        "endDate": "08/05/2020",
+        "endDate": "08/05/2018",
         "location": "Curitiba - PR",
         "description": "Deal is a consulting company. Allocated to clients, I participated in the creation and maintenance of an online vehicle auction.",
         "technologies": "C#, .NET MVC, JavaScript, Jquery, HTML5, CSS"
